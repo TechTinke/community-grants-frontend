@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar.jsx";
 
 function Feedbacks() {
   const { id } = useParams();
@@ -60,7 +60,7 @@ function Feedbacks() {
     <div
       className="grant-detail-container"
       style={{
-        backgroundImage: `ur[](https://ultimatekilimanjaro.com/wp-content/uploads/2023/10/matterhorn.jpeg)`,
+        backgroundImage: `ur[](https://thumbs.dreamstime.com/b/rain-forest-wonderful-view-over-costa-rican-la-fortuna-49217923.jpg)`,
       }}
     >
       <div className="overlay"></div>

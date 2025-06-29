@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar.jsx";
 
 function GrantDetail() {
   const { id } = useParams();
