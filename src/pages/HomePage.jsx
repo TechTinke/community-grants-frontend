@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import indiaLogo from "../assets/india-logo.webp";
+// import indiaLogo from "../assets/image.png";
 
 function HomePage() {
   const [grants, setGrants] = useState([]);
@@ -47,11 +47,6 @@ function HomePage() {
   return (
     <div className="homepage-container">
       <header className="hero">
-        <img
-          src={indiaLogo}
-          alt="Republic of India Logo"
-          className="hero-logo"
-        />
         <h1 className="hero-title">COMMUNITY GRANTS PORTAL</h1>
       </header>
       <div className="intro-section">
